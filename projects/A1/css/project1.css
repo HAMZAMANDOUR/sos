@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Chakra+Petch:wght@500&family=Homemade+Apple&family=Josefin+Sans:wght@300&family=Luckiest+Guy&family=Yatra+One&display=swap');
+
+* {
+    /* border-style: solid; */
+    border-color: black;
+}
+
+body {
+    background-color: #8F95D3;
+
+}
+
+p {
+    width: 700px;
+    /* border-style: solid; */
+    font-size: 40px;
+    margin-left: 20px;
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+header {
+    background-position: 0 20%;
+    background-color: #58504A;
+    width: 100%;
+    height: 64px;
+    display: flex;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    border-bottom: 1px solid #ebecf0;
+    transition: background-color .2s;
+}
+
+.header {
+    margin-top: 200px;
+    font-family: 'Caveat', cursive;
+
+
+}
+
+section {
+    margin: 20px 0;
+    border-radius: 4%;
+    background-color: #D3C4E3;
+
+
+}
+
+h3 {
+    font-size: 40px;
+    font-family: 'Yatra One', cursive;
+
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0%;
+    margin-left: 3%;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+img {
+    display: inline;
+    margin-left: 720px;
+    margin-top: -1000900px;
+    width: 500px;
+    border-radius: 30% 10% 20% 10%;
+}
+
+a {
+    transition: 0.5s;
+    text-decoration: none;
+    margin-left: 12px;
+    color: #89DAFF;
+}
+
+ul {
+    text-align: right;
+
+    justify-content: center;
+}
+
+nav {
+    margin-top: 1.5%;
+    margin-left: 26%;
+    display: block;
+}
+
+a:hover {
+    font-size: 20px;
+    font-weight: bolder;
+}

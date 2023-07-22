@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marhey&family=Special+Elite&display=swap');
+
+body {
+    background-image: url(/image/Untitled\ design\ \(2\).png);
+
+    background-size: 101%;
+    background-repeat: no-repeat;
+}
+
+img {
+    margin-left: 90%;
+    margin-top: -145px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    color: blanchedalmond;
+    font-family: 'Special Elite', cursive;
+    font-size: 100px;
+
+
+
+}
+
+h1#ar {
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
+h1#en {}
+
+
+.langue {
+
+    width: 30px;
+}
+
+form {
+    text-align: center;
+    margin-top: 300px;
+
+}
+
+input#password {
+    width: 200px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+    background-color: rgba(12, 15, 15, 0.301);
+    border-style: hidden;
+}
+
+
+
+input#submit:hover {
+
+    background-color: rgba(0, 0, 0, 0.315);
+    color: aliceblue;
+    border-style: hidden;
+}
+
+input#password:hover {
+    width: 300px;
+    margin-bottom: 10px;
+}
